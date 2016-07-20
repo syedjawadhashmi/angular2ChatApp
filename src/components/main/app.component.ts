@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import '../../../public/css/styles.css';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 @Component({
@@ -7,4 +8,7 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
   styles: [require('./app.component.css')],
   directives: [ROUTER_DIRECTIVES]
 })
-export class AppComponent { }
+export class AppComponent {
+
+
+}
